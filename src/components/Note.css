@@ -1,0 +1,31 @@
+.Note {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Note p {
+  margin: 0;
+  font-size: 1em;
+  flex-grow: 1;
+}
+
+.Note button {
+  padding: 5px 10px;
+  font-size: 0.9em;
+  background-color: #dc3545;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Note button:hover {
+  background-color: #c82333;
+}
